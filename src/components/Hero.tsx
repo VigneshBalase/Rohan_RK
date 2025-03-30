@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion';
 import { Github, Linkedin, Mail, Phone } from 'lucide-react';
+import profilePic from "../components/image.jpg"; 
 
 export default function Hero() {
   return (
@@ -18,7 +19,7 @@ export default function Hero() {
             className="mb-8 relative w-48 h-48 mx-auto"
           >
             <img
-              src="https://github.com/VigneshBalase/Rohan_RK/blob/main/src/components/image.jpg"
+              src={profilePic}
               alt="Rohan Ravi Kumtakar"
               className="rounded-full w-full h-full object-cover shadow-xl ring-4 ring-blue-400"
             />
