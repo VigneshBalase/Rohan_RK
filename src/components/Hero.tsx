@@ -18,7 +18,7 @@ export default function Hero() {
             className="mb-8 relative w-48 h-48 mx-auto"
           >
             <img
-              src="./image.jpg"
+              src="https://github.com/VigneshBalase/Rohan_RK/blob/main/src/components/image.jpg"
               alt="Rohan Ravi Kumtakar"
               className="rounded-full w-full h-full object-cover shadow-xl ring-4 ring-blue-400"
             />
